@@ -15,7 +15,7 @@ Ramp-Up Period (seconds): 2 (thời gian tăng dần để tất cả threads ho
 Loop Count: 10 (số lần lặp lại kịch bản).
 
 Chạy kịch bản kiểm tra và ghi lại kết quả.
-![](jemeter2.png)
+![](jmeter2.png)
 
 Phân tích kết quả kiểm tra, bao gồm thời gian phản hồi, số lượng yêu cầu thành công, số lượng yêu cầu thất bại, v.v.
 ![](jemeter3.png)
