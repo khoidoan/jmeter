@@ -18,7 +18,7 @@ Chạy kịch bản kiểm tra và ghi lại kết quả.
 ![](jmeter2.png)
 
 Phân tích kết quả kiểm tra, bao gồm thời gian phản hồi, số lượng yêu cầu thành công, số lượng yêu cầu thất bại, v.v.
-![](jemeter3.png)
+![](jmeter3.png)
 Kết luận:
   - Thời gian phản hồi trung bình (Average): Giá trị này là 700 ms, thể hiện thời gian trung bình để nhận được phản hồi từ máy chủ cho mỗi yêu cầu. Đây là chỉ số quan trọng để đánh giá tốc độ phản hồi của máy chủ. Thời gian này khá tốt nếu mục tiêu là dưới 1 giây.
   - Độ lệch chuẩn (Deviation): Giá trị này là 291, cho thấy sự phân tán của thời gian phản hồi xung quanh giá trị trung bình. Độ lệch chuẩn càng thấp thì hiệu năng càng ổn định. Trong trường hợp này, một độ lệch chuẩn 291 so với thời gian trung bình 700 cho thấy có một số biến động trong thời gian phản hồi, nhưng không quá lớn.
@@ -32,8 +32,8 @@ Kết luận:
 
 Sử dụng jMeter để tạo một kịch bản kiểm tra mô phỏng người dùng truy cập API.
 Chạy kịch bản kiểm tra và ghi lại kết quả.
-![](jemeter4.png)
-![](jemeter5.png)
+![](jmeter4.png)
+![](jmeter5.png)
   Kết luận:
  - Thời gian phản hồi trung bình (Average): Giá trị này là 3780 ms, cho thấy thời gian trung bình để nhận được phản hồi từ API là khá cao, đặc biệt khi so sánh với tiêu chuẩn phổ thông của các API nên có thời gian phản hồi dưới 1000 ms để đạt hiệu quả tối ưu.
   - Độ lệch chuẩn (Deviation): Giá trị này là 2707, điều này chỉ ra rằng có sự biến động lớn về thời gian phản hồi giữa các lần gọi API khác nhau. Độ lệch chuẩn lớn như vậy cho thấy hiệu suất của API không ổn định.
